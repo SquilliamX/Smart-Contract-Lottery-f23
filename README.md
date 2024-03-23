@@ -1,25 +1,29 @@
-#Proveably Random Raffle Contract
+## Provably Random Raffle Smart Contract
 
-##About
+## Overview
+This project is a provably random smart contract lottery, where users can enter by purchasing a ticket. The ticket fees are collected and awarded to the winner when the lottery automatically draws a winner after a specified period. The randomness and time-based triggers are managed by Chainlink VRF and Chainlink Automation, respectively.
 
-This code is to create a provably randome smart contract lottery.
+## Features
+Users can purchase tickets to enter the lottery
+Ticket fees are collected and awarded to the winner
+Lottery draw occurs automatically after a specified period
+Chainlink VRF is used for randomness
+Chainlink Automation is used for time-based triggers
 
-## What we want it to do?
+## Development Roadmap
+Created a smart contract for the raffle
+Implemented Chainlink VRF for randomness
+Implemented Chainlink Automation for time-based triggers
+Wrote deployment scripts
+Wrote tests for the smart contract
+Test the smart contract on a local chain
+Test the smart contract on a forked testnet
+Test the smart contract on a forked mainnet
 
-1.Users can enter by paying for a ticket\
-    1. The ticket fees are going to go to the winner during the draw
-2.After X period of time, the lottery will automatically draw a winner
-    1. And this will be done programmtically
-3. Using Chainline VRF  & Chainlink Automation
-   1. Chainlink VRF -> Randomness
-   2. Chainlike Automation -> Time based Trigger
-
-
-
-## Tests
-
-1. Write some deploy scripts
-2. Write our tests
-    1. Work on a local chain
-    2. Forked testnet
-    3. forked mainnet
+## Getting Started
+Requirements
+Solidity
+Truffle
+Ganache
+Chainlink VRF
+Chainlink Automation
